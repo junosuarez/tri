@@ -1,5 +1,5 @@
-function tri () {
-  
-}
+global.lug = require('lug')
+var memwatch = require('memwatch')
+memwatch.on('stats', lug.label('memwatch'))
 
-module.exports = tri
+Object.prototype.lug = lug

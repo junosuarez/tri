@@ -3,23 +3,13 @@ tricorder for figuring out problems, yo
 
 ## usage
 
-    var tri = require('tri')
+    require('tri')
 
-## api
-
+That's it. It monkey patches some stuff on `global` and registers a [memwatch](https://npmjs.org/memwatch) listener
 
 ## installation
 
     $ npm install tri
-
-
-## running the tests
-
-From package root:
-
-    $ npm install
-    $ npm test
-
 
 ## contributors
 
